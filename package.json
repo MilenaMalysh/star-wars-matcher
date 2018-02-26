@@ -11,7 +11,7 @@
   },
   "author": "",
   "license": "ISC",
-  "homepage": "http://MilenaMalysh.github.io/start-wars-matcher",
+  "homepage": "http://MilenaMalysh.github.io/star-wars-matcher",
   "dependencies": {
     "babel-core": "^6.26.0",
     "babel-loader": "^7.1.2",
