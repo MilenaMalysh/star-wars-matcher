@@ -14,7 +14,7 @@ class CharacterView extends React.Component {
     render() {
         return <div className="column character" >
             <div id = "character">
-                <img src={"../../images/"+(this.state.character.name || "logo").replace(/ /g, '') +".jpg"}/>
+                <img src={require("../../images/"+(this.state.character.name || "logo").replace(/ /g, '') +".jpg")}/>
                 <div id="personal-information" style={(!this.state.character.name) ? {display: 'none'}: {}}>
                     <table>
                         <tbody>

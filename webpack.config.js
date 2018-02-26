@@ -8,6 +8,7 @@ module.exports = {
       filename: 'index.js',
    },
    devServer: {
+      contentBase: 'public',
       inline: true,
       port: 8080
    },
@@ -40,7 +41,8 @@ module.exports = {
               use: {
                   loader: "file-loader",
                   options: {
-                      name: "[path][name].[hash].[ext]",
+                      name: "images/[name].[ext]",
+                      include: "./src/images"
                   },
               },
           },
