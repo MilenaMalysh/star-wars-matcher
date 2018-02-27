@@ -1,5 +1,5 @@
-import CharacterView from 'CharacterView/CharacterView';
-import SearchBar from 'SearchBar/SearchBar';
+import CharacterView from './components/CharacterView/CharacterView';
+import SearchBar from './components/SearchBar/SearchBar';
 import SocialNetworkBtns from "./components/SocialNetworkBtns/SocialNetworkBtns";
 import { withAlert } from 'react-alert'
 
@@ -47,7 +47,7 @@ class App extends React.Component {
     }
     handleSearch(searchQuery){
         console.log(searchQuery);
-        if (_.some(_.values(searchQuery), function(v) {return !v;})){
+        if (_.some(_.values(searchQuery), function(v) {return !v || parseInt(v)==0;})){
             this.props.alert.show('Please fill all the fields')
         }else {
             $.getJSON('https://swapi.co/api/people/')
@@ -59,13 +59,6 @@ class App extends React.Component {
     render() {
         return (
             <div className="row">
-                {/*<button*/}
-                    {/*onClick={() => {*/}
-                        {/*this.props.alert.show('Oh look, an alert!')*/}
-                    {/*}}*/}
-                {/*>*/}
-                    {/*Show Alert*/}
-                {/*</button>*/}
                 <SearchBar onSearch={this.handleSearch}/>
                 <CharacterView character={this.state.yourCharacter}/>
                 <SocialNetworkBtns/>

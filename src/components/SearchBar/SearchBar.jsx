@@ -22,23 +22,16 @@ export default class SearchBar extends React.Component {
     render() {
         return (
             <div className="column menu">
-                <div id="love-star-wars">
-                    <span>Love star wars? &#128155;</span>
-                    <div id="description">
-                        You absolutely need to know who you are from star wars!
-                        We just need few information about you.
-                    </div>
-                </div>
                 <div id="search-form" >
-                    <div className="form-group">
+                    <div className="form-group input-group-sm">
                         <label htmlFor="height">Height:</label>
                         <input id="height" className="form-control" type="number" name="height" value={this.state.height} onChange={this.handleQueryChange} />
                     </div>
-                    <div className="form-group">
+                    <div className="form-group input-group-sm">
                         <label htmlFor="weight">Weight:</label>
                         <input id="weight" className="form-control" type="number" name="weight" value={this.state.weight} onChange={this.handleQueryChange} />
                     </div>
-                    <div className="form-group">
+                    <div className="form-group input-group-sm">
                         <label htmlFor="sex"> Sex:</label>
                         <select id="sex" className="form-control" name="sex" value={this.state.sex} onChange={this.handleQueryChange}>
                             <option disabled hidden value=''></option>
@@ -46,7 +39,7 @@ export default class SearchBar extends React.Component {
                             <option value="female">Female</option>
                         </select>
                     </div>
-                    <div className="form-group">
+                    <div className="form-group input-group-sm">
                         <label htmlFor="eye_color">Eye color:</label>
                         <select id="eye-color"  className="form-control" name="eye_color" value={this.state.eye_color} onChange={this.handleQueryChange}>
                             <option disabled hidden value=''></option>
@@ -58,7 +51,7 @@ export default class SearchBar extends React.Component {
                             <option value="green">Green</option>
                         </select>
                     </div>
-                    <input type="submit" value="Submit" onClick={this.handleBtnClick} className="btn btn-default"/>
+                    <input type="submit" value="Submit" onClick={this.handleBtnClick} className="btn btn-default btn-sm"/>
                 </div>
             </div>);
     }

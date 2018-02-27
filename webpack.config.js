@@ -1,10 +1,11 @@
-var webpack = require('webpack');
+const webpack = require('webpack');
 const path = require('path');
+const HTMLPlugin = require('html-webpack-plugin')
 
 module.exports = {
-   entry: path.resolve(__dirname, 'src','main.js'),
+   entry: path.resolve(__dirname, 'src','index.js'),
    output: {
-      path:'/',
+      path: path.join(__dirname, '/build'),
       filename: 'index.js',
    },
    devServer: {
@@ -19,6 +20,10 @@ module.exports = {
             "window.jQuery": "jquery",
             'React':     'react',
             _:     'underscore'
+        }),
+        new HTMLPlugin ({
+            inject: true,
+            template: path.resolve(__dirname, 'public','index.html'),
         })
     ],
    module: {
