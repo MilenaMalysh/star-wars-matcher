@@ -60,7 +60,7 @@
 /******/ 	__webpack_require__.p = "";
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 22);
+/******/ 	return __webpack_require__(__webpack_require__.s = 23);
 /******/ })
 /************************************************************************/
 /******/ ([
@@ -261,9 +261,9 @@ process.umask = function() { return 0; };
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(23);
-} else {
   module.exports = __webpack_require__(24);
+} else {
+  module.exports = __webpack_require__(25);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -517,11 +517,11 @@ if (process.env.NODE_ENV !== 'production') {
   // By explicitly using `prop-types` you are opting into new development behavior.
   // http://fb.me/prop-types-in-prod
   var throwOnDirectAccess = true;
-  module.exports = __webpack_require__(53)(isValidElement, throwOnDirectAccess);
+  module.exports = __webpack_require__(55)(isValidElement, throwOnDirectAccess);
 } else {
   // By explicitly using `prop-types` you are opting into new production behavior.
   // http://fb.me/prop-types-in-prod
-  module.exports = __webpack_require__(54)();
+  module.exports = __webpack_require__(56)();
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -720,9 +720,9 @@ if (process.env.NODE_ENV === 'production') {
   // DCE check should happen before ReactDOM bundle executes so that
   // DevTools can report bad minification during injection.
   checkDCE();
-  module.exports = __webpack_require__(25);
+  module.exports = __webpack_require__(26);
 } else {
-  module.exports = __webpack_require__(28);
+  module.exports = __webpack_require__(29);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
@@ -976,7 +976,7 @@ module.exports = shallowEqual;
  * 
  */
 
-var isTextNode = __webpack_require__(26);
+var isTextNode = __webpack_require__(27);
 
 /*eslint-disable no-bitwise */
 
@@ -1035,6 +1035,12 @@ module.exports = focusNode;
 
 /***/ }),
 /* 17 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/toppanel.jpg";
+
+/***/ }),
+/* 18 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -1047,7 +1053,7 @@ Object.defineProperty(__webpack_exports__, "__esModule", { value: true });
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_1_prop_types___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_1_prop_types__);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom__ = __webpack_require__(10);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_2_react_dom___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_2_react_dom__);
-/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_transition_group__ = __webpack_require__(58);
+/* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_transition_group__ = __webpack_require__(60);
 /* harmony import */ var __WEBPACK_IMPORTED_MODULE_3_react_transition_group___default = __webpack_require__.n(__WEBPACK_IMPORTED_MODULE_3_react_transition_group__);
 
 
@@ -1635,7 +1641,7 @@ var withAlert = function withAlert(WrappedComponent) {
 
 
 /***/ }),
-/* 18 */
+/* 19 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -1656,7 +1662,7 @@ var _reactDom = __webpack_require__(10);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _PropTypes = __webpack_require__(19);
+var _PropTypes = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -2199,7 +2205,7 @@ exports.default = Transition;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 19 */
+/* 20 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2253,7 +2259,7 @@ var classNamesShape = exports.classNamesShape = _propTypes2.default.oneOfType([_
 })]);
 
 /***/ }),
-/* 20 */
+/* 21 */
 /***/ (function(module, exports) {
 
 /*
@@ -2335,7 +2341,7 @@ function toComment(sourceMap) {
 
 
 /***/ }),
-/* 21 */
+/* 22 */
 /***/ (function(module, exports, __webpack_require__) {
 
 /*
@@ -2391,7 +2397,7 @@ var singleton = null;
 var	singletonCounter = 0;
 var	stylesInsertedAtTop = [];
 
-var	fixUrls = __webpack_require__(67);
+var	fixUrls = __webpack_require__(69);
 
 module.exports = function(list, options) {
 	if (typeof DEBUG !== "undefined" && DEBUG) {
@@ -2707,7 +2713,7 @@ function updateLink (link, options, obj) {
 
 
 /***/ }),
-/* 22 */
+/* 23 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2725,17 +2731,17 @@ var _reactDom = __webpack_require__(10);
 
 var _reactDom2 = _interopRequireDefault(_reactDom);
 
-var _App = __webpack_require__(33);
+var _App = __webpack_require__(34);
 
 var _App2 = _interopRequireDefault(_App);
 
-__webpack_require__(65);
+__webpack_require__(67);
 
-__webpack_require__(68);
+__webpack_require__(70);
 
-var _reactAlert = __webpack_require__(17);
+var _reactAlert = __webpack_require__(18);
 
-var _reactAlertTemplateBasic = __webpack_require__(70);
+var _reactAlertTemplateBasic = __webpack_require__(72);
 
 var _reactAlertTemplateBasic2 = _interopRequireDefault(_reactAlertTemplateBasic);
 
@@ -2780,7 +2786,7 @@ var Root = function (_Component) {
 _reactDom2.default.render(_react2.default.createElement(Root, null), document.getElementById('app'));
 
 /***/ }),
-/* 23 */
+/* 24 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -2808,7 +2814,7 @@ isValidElement:K,version:"16.2.0",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_F
 
 
 /***/ }),
-/* 24 */
+/* 25 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4173,7 +4179,7 @@ module.exports = react;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 25 */
+/* 26 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4409,7 +4415,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
 
 
 /***/ }),
-/* 26 */
+/* 27 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4424,7 +4430,7 @@ Z.injectIntoDevTools({findFiberByHostInstance:pb,bundleType:0,version:"16.2.0",r
  * @typechecks
  */
 
-var isNode = __webpack_require__(27);
+var isNode = __webpack_require__(28);
 
 /**
  * @param {*} object The object to check.
@@ -4437,7 +4443,7 @@ function isTextNode(object) {
 module.exports = isTextNode;
 
 /***/ }),
-/* 27 */
+/* 28 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4465,7 +4471,7 @@ function isNode(object) {
 module.exports = isNode;
 
 /***/ }),
-/* 28 */
+/* 29 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -4499,8 +4505,8 @@ var containsNode = __webpack_require__(15);
 var focusNode = __webpack_require__(16);
 var emptyObject = __webpack_require__(4);
 var checkPropTypes = __webpack_require__(8);
-var hyphenateStyleName = __webpack_require__(29);
-var camelizeStyleName = __webpack_require__(31);
+var hyphenateStyleName = __webpack_require__(30);
+var camelizeStyleName = __webpack_require__(32);
 
 /**
  * WARNING: DO NOT manually require this module.
@@ -19867,7 +19873,7 @@ module.exports = reactDom;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 29 */
+/* 30 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19882,7 +19888,7 @@ module.exports = reactDom;
 
 
 
-var hyphenate = __webpack_require__(30);
+var hyphenate = __webpack_require__(31);
 
 var msPattern = /^ms-/;
 
@@ -19909,7 +19915,7 @@ function hyphenateStyleName(string) {
 module.exports = hyphenateStyleName;
 
 /***/ }),
-/* 30 */
+/* 31 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19945,7 +19951,7 @@ function hyphenate(string) {
 module.exports = hyphenate;
 
 /***/ }),
-/* 31 */
+/* 32 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -19960,7 +19966,7 @@ module.exports = hyphenate;
 
 
 
-var camelize = __webpack_require__(32);
+var camelize = __webpack_require__(33);
 
 var msPattern = /^-ms-/;
 
@@ -19988,7 +19994,7 @@ function camelizeStyleName(string) {
 module.exports = camelizeStyleName;
 
 /***/ }),
-/* 32 */
+/* 33 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20023,7 +20029,7 @@ function camelize(string) {
 module.exports = camelize;
 
 /***/ }),
-/* 33 */
+/* 34 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -20035,19 +20041,19 @@ Object.defineProperty(exports, "__esModule", {
 
 var _createClass = function () { function defineProperties(target, props) { for (var i = 0; i < props.length; i++) { var descriptor = props[i]; descriptor.enumerable = descriptor.enumerable || false; descriptor.configurable = true; if ("value" in descriptor) descriptor.writable = true; Object.defineProperty(target, descriptor.key, descriptor); } } return function (Constructor, protoProps, staticProps) { if (protoProps) defineProperties(Constructor.prototype, protoProps); if (staticProps) defineProperties(Constructor, staticProps); return Constructor; }; }();
 
-var _CharacterView = __webpack_require__(36);
+var _CharacterView = __webpack_require__(37);
 
 var _CharacterView2 = _interopRequireDefault(_CharacterView);
 
-var _SearchBar = __webpack_require__(50);
+var _SearchBar = __webpack_require__(52);
 
 var _SearchBar2 = _interopRequireDefault(_SearchBar);
 
-var _SocialNetworkBtns = __webpack_require__(51);
+var _SocialNetworkBtns = __webpack_require__(53);
 
 var _SocialNetworkBtns2 = _interopRequireDefault(_SocialNetworkBtns);
 
-var _reactAlert = __webpack_require__(17);
+var _reactAlert = __webpack_require__(18);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -20120,7 +20126,7 @@ var App = function (_React$Component) {
 
             console.log(searchQuery);
             if (_.some(_.values(searchQuery), function (v) {
-                return !v;
+                return !v || parseInt(v) == 0;
             })) {
                 this.props.alert.show('Please fill all the fields');
             } else {
@@ -20149,10 +20155,10 @@ var App = function (_React$Component) {
 }(React.Component);
 
 exports.default = (0, _reactAlert.withAlert)(App);
-/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(34), __webpack_require__(35)))
+/* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1), __webpack_require__(35), __webpack_require__(36)))
 
 /***/ }),
-/* 34 */
+/* 35 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscore.js 1.8.3
@@ -21707,7 +21713,7 @@ var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;//     Underscor
 
 
 /***/ }),
-/* 35 */
+/* 36 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
@@ -32078,7 +32084,7 @@ return jQuery;
 
 
 /***/ }),
-/* 36 */
+/* 37 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32126,101 +32132,112 @@ var CharacterView = function (_React$Component) {
             return React.createElement(
                 "div",
                 { className: "column character" },
+                React.createElement("img", { id: "toppanel", src: __webpack_require__(17), alt: "some text" }),
+                React.createElement("img", { id: "character-logo", style: !this.state.character.name ? { display: 'none' } : {},
+                    src: this.state.character.name ? __webpack_require__(38)("./" + this.state.character.name.replace(/ /g, '') + ".jpg") : "..." }),
                 React.createElement(
                     "div",
-                    { id: "character" },
-                    React.createElement("img", { src: __webpack_require__(37)("./" + (this.state.character.name || "logo").replace(/ /g, '') + ".jpg") }),
+                    { className: "information-block" },
                     React.createElement(
                         "div",
-                        { id: "personal-information", style: !this.state.character.name ? { display: 'none' } : {} },
+                        { id: "information-text" },
                         React.createElement(
-                            "table",
-                            null,
+                            "div",
+                            { className: "main-question", style: this.state.character.name ? { display: 'none' } : {} },
+                            "Looove Star Wars?"
+                        ),
+                        React.createElement(
+                            "div",
+                            { className: "main-question", style: !this.state.character.name ? { display: 'none' } : {} },
+                            this.state.character.name
+                        ),
+                        React.createElement(
+                            "div",
+                            { className: "main-proposal", style: this.state.character.name ? { display: 'none' } : {} },
+                            "You absolutely need to know who you are from star wars!",
+                            React.createElement("br", null),
+                            "We just need few information about you.",
+                            React.createElement("br", null),
+                            " Please fill the form"
+                        ),
+                        React.createElement(
+                            "div",
+                            { id: "main-proposal", style: !this.state.character.name ? { display: 'none' } : {} },
                             React.createElement(
-                                "tbody",
+                                "table",
                                 null,
                                 React.createElement(
-                                    "tr",
+                                    "tbody",
                                     null,
                                     React.createElement(
-                                        "th",
+                                        "tr",
                                         null,
-                                        "Name"
+                                        React.createElement(
+                                            "th",
+                                            { title: "height" },
+                                            React.createElement("i", { className: "fas fa-arrows-alt-v" })
+                                        ),
+                                        React.createElement(
+                                            "td",
+                                            null,
+                                            this.state.character.height || 'not known'
+                                        )
                                     ),
                                     React.createElement(
-                                        "td",
+                                        "tr",
                                         null,
-                                        this.state.character.name
-                                    )
-                                ),
-                                React.createElement(
-                                    "tr",
-                                    null,
-                                    React.createElement(
-                                        "th",
-                                        null,
-                                        "Height"
+                                        React.createElement(
+                                            "th",
+                                            { title: "weight" },
+                                            React.createElement("i", { className: "fas fa-weight" })
+                                        ),
+                                        React.createElement(
+                                            "td",
+                                            null,
+                                            this.state.character.weight || 'not known'
+                                        )
                                     ),
                                     React.createElement(
-                                        "td",
+                                        "tr",
                                         null,
-                                        this.state.character.height || 'not known'
-                                    )
-                                ),
-                                React.createElement(
-                                    "tr",
-                                    null,
-                                    React.createElement(
-                                        "th",
-                                        null,
-                                        "Mass"
+                                        React.createElement(
+                                            "th",
+                                            { title: "hair color" },
+                                            React.createElement("img", { id: "hair-style", src: __webpack_require__(51) })
+                                        ),
+                                        React.createElement(
+                                            "td",
+                                            null,
+                                            this.state.character.hair_color || 'not known'
+                                        )
                                     ),
                                     React.createElement(
-                                        "td",
+                                        "tr",
                                         null,
-                                        this.state.character.weight || 'not known'
-                                    )
-                                ),
-                                React.createElement(
-                                    "tr",
-                                    null,
-                                    React.createElement(
-                                        "th",
-                                        null,
-                                        "Hair Color"
+                                        React.createElement(
+                                            "th",
+                                            { title: "skin color" },
+                                            React.createElement("i", { className: "fas fa-user" })
+                                        ),
+                                        React.createElement(
+                                            "td",
+                                            null,
+                                            this.state.character.skin_color || 'not known'
+                                        )
                                     ),
                                     React.createElement(
-                                        "td",
+                                        "tr",
                                         null,
-                                        this.state.character.hair_color || 'not known'
-                                    )
-                                ),
-                                React.createElement(
-                                    "tr",
-                                    null,
-                                    React.createElement(
-                                        "th",
-                                        null,
-                                        "Skin Color"
-                                    ),
-                                    React.createElement(
-                                        "td",
-                                        null,
-                                        this.state.character.skin_color || 'not known'
-                                    )
-                                ),
-                                React.createElement(
-                                    "tr",
-                                    null,
-                                    React.createElement(
-                                        "th",
-                                        null,
-                                        "Eye Color"
-                                    ),
-                                    React.createElement(
-                                        "td",
-                                        null,
-                                        this.state.character.eye_color || 'not known'
+                                        React.createElement(
+                                            "th",
+                                            { title: "Eye color" },
+                                            React.createElement("i", { className: "fas fa-eye" })
+                                        ),
+                                        React.createElement(
+                                            "td",
+                                            null,
+                                            this.state.character.eye_color || 'not known'
+                                        )
                                     )
                                 )
                             )
@@ -32238,22 +32255,23 @@ exports.default = CharacterView;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 37 */
+/* 38 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var map = {
-	"./BeruWhitesunlars.jpg": 38,
-	"./BiggsDarklighter.jpg": 39,
-	"./C-3PO.jpg": 40,
-	"./DarthVader.jpg": 41,
-	"./LeiaOrgana.jpg": 42,
-	"./LukeSkywalker.jpg": 43,
-	"./Obi-WanKenobi.jpg": 44,
-	"./OwenLars.jpg": 45,
-	"./R2-D2.jpg": 46,
-	"./R5-D4.jpg": 47,
-	"./logo.jpg": 48,
-	"./poster.jpg": 49
+	"./BeruWhitesunlars.jpg": 39,
+	"./BiggsDarklighter.jpg": 40,
+	"./C-3PO.jpg": 41,
+	"./DarthVader.jpg": 42,
+	"./LeiaOrgana.jpg": 43,
+	"./LukeSkywalker.jpg": 44,
+	"./Obi-WanKenobi.jpg": 45,
+	"./OwenLars.jpg": 46,
+	"./R2-D2.jpg": 47,
+	"./R5-D4.jpg": 48,
+	"./logo.jpg": 49,
+	"./poster.jpg": 50,
+	"./toppanel.jpg": 17
 };
 function webpackContext(req) {
 	return __webpack_require__(webpackContextResolve(req));
@@ -32269,82 +32287,88 @@ webpackContext.keys = function webpackContextKeys() {
 };
 webpackContext.resolve = webpackContextResolve;
 module.exports = webpackContext;
-webpackContext.id = 37;
-
-/***/ }),
-/* 38 */
-/***/ (function(module, exports, __webpack_require__) {
-
-module.exports = __webpack_require__.p + "images/BeruWhitesunlars.jpg";
+webpackContext.id = 38;
 
 /***/ }),
 /* 39 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/BiggsDarklighter.jpg";
+module.exports = __webpack_require__.p + "images/BeruWhitesunlars.jpg";
 
 /***/ }),
 /* 40 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/C-3PO.jpg";
+module.exports = __webpack_require__.p + "images/BiggsDarklighter.jpg";
 
 /***/ }),
 /* 41 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/DarthVader.jpg";
+module.exports = __webpack_require__.p + "images/C-3PO.jpg";
 
 /***/ }),
 /* 42 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/LeiaOrgana.jpg";
+module.exports = __webpack_require__.p + "images/DarthVader.jpg";
 
 /***/ }),
 /* 43 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/LukeSkywalker.jpg";
+module.exports = __webpack_require__.p + "images/LeiaOrgana.jpg";
 
 /***/ }),
 /* 44 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/Obi-WanKenobi.jpg";
+module.exports = __webpack_require__.p + "images/LukeSkywalker.jpg";
 
 /***/ }),
 /* 45 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/OwenLars.jpg";
+module.exports = __webpack_require__.p + "images/Obi-WanKenobi.jpg";
 
 /***/ }),
 /* 46 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/R2-D2.jpg";
+module.exports = __webpack_require__.p + "images/OwenLars.jpg";
 
 /***/ }),
 /* 47 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/R5-D4.jpg";
+module.exports = __webpack_require__.p + "images/R2-D2.jpg";
 
 /***/ }),
 /* 48 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/logo.jpg";
+module.exports = __webpack_require__.p + "images/R5-D4.jpg";
 
 /***/ }),
 /* 49 */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__.p + "images/poster.jpg";
+module.exports = __webpack_require__.p + "images/logo.jpg";
 
 /***/ }),
 /* 50 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/poster.jpg";
+
+/***/ }),
+/* 51 */
+/***/ (function(module, exports, __webpack_require__) {
+
+module.exports = __webpack_require__.p + "images/hair-style.png";
+
+/***/ }),
+/* 52 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32401,24 +32425,10 @@ var SearchBar = function (_React$Component) {
                 { className: 'column menu' },
                 React.createElement(
                     'div',
-                    { id: 'love-star-wars' },
-                    React.createElement(
-                        'span',
-                        null,
-                        'Love star wars? \uD83D\uDC9B'
-                    ),
-                    React.createElement(
-                        'div',
-                        { id: 'description' },
-                        'You absolutely need to know who you are from star wars! We just need few information about you.'
-                    )
-                ),
-                React.createElement(
-                    'div',
                     { id: 'search-form' },
                     React.createElement(
                         'div',
-                        { className: 'form-group' },
+                        { className: 'form-group input-group-sm' },
                         React.createElement(
                             'label',
                             { htmlFor: 'height' },
@@ -32428,7 +32438,7 @@ var SearchBar = function (_React$Component) {
                     ),
                     React.createElement(
                         'div',
-                        { className: 'form-group' },
+                        { className: 'form-group input-group-sm' },
                         React.createElement(
                             'label',
                             { htmlFor: 'weight' },
@@ -32438,7 +32448,7 @@ var SearchBar = function (_React$Component) {
                     ),
                     React.createElement(
                         'div',
-                        { className: 'form-group' },
+                        { className: 'form-group input-group-sm' },
                         React.createElement(
                             'label',
                             { htmlFor: 'sex' },
@@ -32462,7 +32472,7 @@ var SearchBar = function (_React$Component) {
                     ),
                     React.createElement(
                         'div',
-                        { className: 'form-group' },
+                        { className: 'form-group input-group-sm' },
                         React.createElement(
                             'label',
                             { htmlFor: 'eye_color' },
@@ -32504,7 +32514,7 @@ var SearchBar = function (_React$Component) {
                             )
                         )
                     ),
-                    React.createElement('input', { type: 'submit', value: 'Submit', onClick: this.handleBtnClick, className: 'btn btn-default' })
+                    React.createElement('input', { type: 'submit', value: 'Submit', onClick: this.handleBtnClick, className: 'btn btn-default btn-sm' })
                 )
             );
         }
@@ -32517,7 +32527,7 @@ exports.default = SearchBar;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 51 */
+/* 53 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -32527,7 +32537,7 @@ Object.defineProperty(exports, "__esModule", {
     value: true
 });
 
-var _reactSocialShareButtons = __webpack_require__(52);
+var _reactSocialShareButtons = __webpack_require__(54);
 
 var _reactSocialShareButtons2 = _interopRequireDefault(_reactSocialShareButtons);
 
@@ -32544,14 +32554,14 @@ function SocialNetworkBtns(_ref) {
         React.createElement(_reactSocialShareButtons2.default, {
             compact: true,
             socialMedia: 'facebook',
-            url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png",
+            url: "https://milenamalysh.github.io/star-wars-matcher/",
             media: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png",
             text: 'WHo are you from star wars?'
         }),
         React.createElement(_reactSocialShareButtons2.default, {
             compact: true,
             socialMedia: 'twitter',
-            url: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png",
+            url: "https://milenamalysh.github.io/star-wars-matcher/",
             media: "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6c/Star_Wars_Logo.svg/1280px-Star_Wars_Logo.svg.png",
             text: 'Who are you from star wars?'
         })
@@ -32562,14 +32572,14 @@ exports.default = SocialNetworkBtns;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(1)))
 
 /***/ }),
-/* 52 */
+/* 54 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
 var PropTypes = __webpack_require__(6);
-var React = __webpack_require__(55);
+var React = __webpack_require__(57);
 
 var styles={facebook:{icon:React.createElement("path",{d:"M211.9 197.4h-36.7v59.9h36.7V433.1h70.5V256.5h49.2l5.2-59.1h-54.4c0 0 0-22.1 0-33.7 0-13.9 2.8-19.5 16.3-19.5 10.9 0 38.2 0 38.2 0V82.9c0 0-40.2 0-48.8 0 -52.5 0-76.1 23.1-76.1 67.3C211.9 188.8 211.9 197.4 211.9 197.4z"}),background:"#3B5998"},"google-plus":{icon:React.createElement("path",{d:"M179.7 237.6L179.7 284.2 256.7 284.2C253.6 304.2 233.4 342.9 179.7 342.9 133.4 342.9 95.6 304.4 95.6 257 95.6 209.6 133.4 171.1 179.7 171.1 206.1 171.1 223.7 182.4 233.8 192.1L270.6 156.6C247 134.4 216.4 121 179.7 121 104.7 121 44 181.8 44 257 44 332.2 104.7 393 179.7 393 258 393 310 337.8 310 260.1 310 251.2 309 244.4 307.9 237.6L179.7 237.6 179.7 237.6ZM468 236.7L429.3 236.7 429.3 198 390.7 198 390.7 236.7 352 236.7 352 275.3 390.7 275.3 390.7 314 429.3 314 429.3 275.3 468 275.3"}),background:"#DB4437"},twitter:{icon:React.createElement("path",{d:"M419.6 168.6c-11.7 5.2-24.2 8.7-37.4 10.2 13.4-8.1 23.8-20.8 28.6-36 -12.6 7.5-26.5 12.9-41.3 15.8 -11.9-12.6-28.8-20.6-47.5-20.6 -42 0-72.9 39.2-63.4 79.9 -54.1-2.7-102.1-28.6-134.2-68 -17 29.2-8.8 67.5 20.1 86.9 -10.7-0.3-20.7-3.3-29.5-8.1 -0.7 30.2 20.9 58.4 52.2 64.6 -9.2 2.5-19.2 3.1-29.4 1.1 8.3 25.9 32.3 44.7 60.8 45.2 -27.4 21.4-61.8 31-96.4 27 28.8 18.5 63 29.2 99.8 29.2 120.8 0 189.1-102.1 185-193.6C399.9 193.1 410.9 181.7 419.6 168.6z"}),background:"#1DA1F2"},pinterest:{icon:React.createElement("path",{d:"M266.6 76.5c-100.2 0-150.7 71.8-150.7 131.7 0 36.3 13.7 68.5 43.2 80.6 4.8 2 9.2 0.1 10.6-5.3 1-3.7 3.3-13 4.3-16.9 1.4-5.3 0.9-7.1-3-11.8 -8.5-10-13.9-23-13.9-41.3 0-53.3 39.9-101 103.8-101 56.6 0 87.7 34.6 87.7 80.8 0 60.8-26.9 112.1-66.8 112.1 -22.1 0-38.6-18.2-33.3-40.6 6.3-26.7 18.6-55.5 18.6-74.8 0-17.3-9.3-31.7-28.4-31.7 -22.5 0-40.7 23.3-40.7 54.6 0 19.9 6.7 33.4 6.7 33.4s-23.1 97.8-27.1 114.9c-8.1 34.1-1.2 75.9-0.6 80.1 0.3 2.5 3.6 3.1 5 1.2 2.1-2.7 28.9-35.9 38.1-69 2.6-9.4 14.8-58 14.8-58 7.3 14 28.7 26.3 51.5 26.3 67.8 0 113.8-61.8 113.8-144.5C400.1 134.7 347.1 76.5 266.6 76.5z"}),background:"#BD081C"}};function getHref(a,b,c,d){var e=encodeURI(b);return"facebook"===a?"https://www.facebook.com/sharer/sharer.php?u="+e:"google-plus"===a?"https://plus.google.com/share?url="+e:"twitter"===a?"https://twitter.com/intent/tweet?url="+e+"&text="+c:"pinterest"===a?"http://www.pinterest.com/pin/create/button/?url="+e+"&media="+d+"&description="+c:void 0}function getButtonData(a,b,c,d){var e=styles[a].background,f=getHref(a,b,c,d);return{background:e,href:f}}function getIconPath(a){return styles[a].icon||null}function getTextContent(a){return"facebook"===a?"Facebook":"google-plus"===a?"Google Plus":"twitter"===a?"Tweet":"pinterest"===a?"Pin it":null}
 
@@ -32579,7 +32589,7 @@ module.exports = ShareButton;
 
 
 /***/ }),
-/* 53 */
+/* 55 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33129,7 +33139,7 @@ module.exports = function(isValidElement, throwOnDirectAccess) {
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 54 */
+/* 56 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33194,22 +33204,22 @@ module.exports = function() {
 
 
 /***/ }),
-/* 55 */
+/* 57 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 /* WEBPACK VAR INJECTION */(function(process) {
 
 if (process.env.NODE_ENV === 'production') {
-  module.exports = __webpack_require__(56);
+  module.exports = __webpack_require__(58);
 } else {
-  module.exports = __webpack_require__(57);
+  module.exports = __webpack_require__(59);
 }
 
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 56 */
+/* 58 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -33238,7 +33248,7 @@ version:"16.1.1",__SECRET_INTERNALS_DO_NOT_USE_OR_YOU_WILL_BE_FIRED:{ReactCurren
 
 
 /***/ }),
-/* 57 */
+/* 59 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34589,21 +34599,21 @@ module.exports = react;
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 58 */
+/* 60 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
 
 
-var _CSSTransition = __webpack_require__(59);
+var _CSSTransition = __webpack_require__(61);
 
 var _CSSTransition2 = _interopRequireDefault(_CSSTransition);
 
-var _TransitionGroup = __webpack_require__(63);
+var _TransitionGroup = __webpack_require__(65);
 
 var _TransitionGroup2 = _interopRequireDefault(_TransitionGroup);
 
-var _Transition = __webpack_require__(18);
+var _Transition = __webpack_require__(19);
 
 var _Transition2 = _interopRequireDefault(_Transition);
 
@@ -34616,7 +34626,7 @@ module.exports = {
 };
 
 /***/ }),
-/* 59 */
+/* 61 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34630,11 +34640,11 @@ var _propTypes = __webpack_require__(6);
 
 var PropTypes = _interopRequireWildcard(_propTypes);
 
-var _addClass = __webpack_require__(60);
+var _addClass = __webpack_require__(62);
 
 var _addClass2 = _interopRequireDefault(_addClass);
 
-var _removeClass = __webpack_require__(62);
+var _removeClass = __webpack_require__(64);
 
 var _removeClass2 = _interopRequireDefault(_removeClass);
 
@@ -34642,11 +34652,11 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _Transition = __webpack_require__(18);
+var _Transition = __webpack_require__(19);
 
 var _Transition2 = _interopRequireDefault(_Transition);
 
-var _PropTypes = __webpack_require__(19);
+var _PropTypes = __webpack_require__(20);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -34934,7 +34944,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 60 */
+/* 62 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34945,7 +34955,7 @@ Object.defineProperty(exports, "__esModule", {
 });
 exports.default = addClass;
 
-var _hasClass = __webpack_require__(61);
+var _hasClass = __webpack_require__(63);
 
 var _hasClass2 = _interopRequireDefault(_hasClass);
 
@@ -34957,7 +34967,7 @@ function addClass(element, className) {
 module.exports = exports['default'];
 
 /***/ }),
-/* 61 */
+/* 63 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34973,7 +34983,7 @@ function hasClass(element, className) {
 module.exports = exports["default"];
 
 /***/ }),
-/* 62 */
+/* 64 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -34988,7 +34998,7 @@ module.exports = function removeClass(element, className) {
 };
 
 /***/ }),
-/* 63 */
+/* 65 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35006,7 +35016,7 @@ var _react = __webpack_require__(1);
 
 var _react2 = _interopRequireDefault(_react);
 
-var _ChildMapping = __webpack_require__(64);
+var _ChildMapping = __webpack_require__(66);
 
 function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { default: obj }; }
 
@@ -35285,7 +35295,7 @@ module.exports = exports['default'];
 /* WEBPACK VAR INJECTION */}.call(exports, __webpack_require__(0)))
 
 /***/ }),
-/* 64 */
+/* 66 */
 /***/ (function(module, exports, __webpack_require__) {
 
 "use strict";
@@ -35380,13 +35390,13 @@ function mergeChildMappings(prev, next) {
 }
 
 /***/ }),
-/* 65 */
+/* 67 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(66);
+var content = __webpack_require__(68);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -35394,7 +35404,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(21)(content, options);
+var update = __webpack_require__(22)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -35411,10 +35421,10 @@ if(false) {
 }
 
 /***/ }),
-/* 66 */
+/* 68 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)(false);
+exports = module.exports = __webpack_require__(21)(false);
 // imports
 
 
@@ -35425,7 +35435,7 @@ exports.push([module.i, "/*!\n * Bootstrap v4.0.0-alpha.6 (https://getbootstrap.
 
 
 /***/ }),
-/* 67 */
+/* 69 */
 /***/ (function(module, exports) {
 
 
@@ -35520,13 +35530,13 @@ module.exports = function (css) {
 
 
 /***/ }),
-/* 68 */
+/* 70 */
 /***/ (function(module, exports, __webpack_require__) {
 
 // style-loader: Adds some css to the DOM by adding a <style> tag
 
 // load the styles
-var content = __webpack_require__(69);
+var content = __webpack_require__(71);
 if(typeof content === 'string') content = [[module.i, content, '']];
 // Prepare cssTransformation
 var transform;
@@ -35534,7 +35544,7 @@ var transform;
 var options = {"hmr":true}
 options.transform = transform
 // add the styles to the DOM
-var update = __webpack_require__(21)(content, options);
+var update = __webpack_require__(22)(content, options);
 if(content.locals) module.exports = content.locals;
 // Hot Module Replacement
 if(false) {
@@ -35551,21 +35561,21 @@ if(false) {
 }
 
 /***/ }),
-/* 69 */
+/* 71 */
 /***/ (function(module, exports, __webpack_require__) {
 
-exports = module.exports = __webpack_require__(20)(false);
+exports = module.exports = __webpack_require__(21)(false);
 // imports
 
 
 // module
-exports.push([module.i, "body {\r\n    overflow-x: hidden;\r\n    overflow-y: hidden;\r\n}\r\n.row{\r\n    width: 100%;\r\n    margin: 0!important;\r\n    height: 100vh;\r\n}\r\n.column {\r\n    float: left;\r\n}\r\n\r\n.menu {\r\n    width: 25%;\r\n    background-color: #061e29;\r\n}\r\n\r\n.character {\r\n    width: 75%;\r\n}\r\n\r\n#character {\r\n    height: 100%;\r\n}\r\n#character > img{\r\n    height: 100vh;\r\n    opacity: 0.9;\r\n    width: auto;\r\n    overflow: hidden;\r\n    background-size: cover;\r\n    margin-left: auto;\r\n    display: block;\r\n    margin-right: auto;\r\n}\r\n#personal-information{\r\n    position: absolute;\r\n    top: 60%;\r\n    background-color: rgba(255,255,255,0.7);\r\n    color: gray;\r\n    border-radius: 5px;\r\n    padding: 20px;\r\n    font-size: 15pt;\r\n}\r\n\r\n#personal-information th{\r\n    padding-right: 10px;\r\n}\r\n/*#search-bar{*/\r\n    /*width: 75%;*/\r\n    /*margin-left: auto;*/\r\n    /*margin-right: auto;*/\r\n    /*background-color: white;*/\r\n    /*border-radius: 4px;*/\r\n/*}*/\r\n#search-form{\r\n    width: 75%;\r\n    color: rgba(46, 103, 103, 0.67);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    height: 100px;\r\n}\r\n\r\n#love-star-wars{\r\n    margin-top: 80px;\r\n    margin-bottom: 5px;\r\n    text-align: center;\r\n}\r\n#love-star-wars>span{\r\n    background-color: #299798;\r\n    display: inline-block;\r\n    color: white;\r\n    font-size: 22pt;\r\n    border-radius: 4px;\r\n    padding: 5px;\r\n}\r\n\r\n#description{\r\n    color: rgba(46, 103, 103, 0.67);\r\n    text-align: center;\r\n    font-size: 15pt;\r\n    padding: 20px;\r\n    width: 75%;\r\n    margin-right: auto;\r\n    margin-left: auto;\r\n}\r\n#social-networks{\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    margin-right: 10px;\r\n    margin-top: 10px;\r\n}\r\n#social-networks svg{\r\n    width: 42px !important;\r\n    height: 42px !important;\r\n}\r\n#social-networks a{\r\n    margin-bottom: 5px !important;\r\n}\r\n", ""]);
+exports.push([module.i, "body {\r\n    overflow-x: hidden;\r\n    overflow-y: hidden;\r\n}\r\n.row{\r\n    width: 100%;\r\n    margin: 0!important;\r\n    height: 100vh;\r\n}\r\n.column {\r\n    float: left;\r\n}\r\n\r\n.menu {\r\n    width: 25%;\r\n    background-color: black;\r\n    overflow-y: auto;\r\n    display: flex;\r\n    align-items: center;\r\n}\r\n\r\n.character {\r\n    width: 75%;\r\n}\r\n\r\n\r\n#toppanel{\r\n    width: 100%;\r\n    position: relative;\r\n}\r\n#search-form{\r\n    width: 75%;\r\n    color: rgba(72, 170, 170, 0.67);\r\n    margin-left: auto;\r\n    margin-right: auto;\r\n    font-size: 15pt;\r\n    height: auto;\r\n}\r\n.form-group label{\r\n    font-size: 10pt;\r\n}\r\n.input-group-sm{\r\n    margin-bottom: 10px;\r\n}\r\n\r\n.main-question{\r\n    font-size: 18pt;\r\n    margin-bottom: 20px;\r\n}\r\n\r\n.main-proposal{\r\n    font-size: 10pt;\r\n}\r\n#hair-style{\r\n    width: 16px;\r\n    height: 16px;\r\n}\r\n#character-logo{\r\n    height: 250px;\r\n    width: 250px;\r\n    object-fit: cover;\r\n    margin-top: -5%;\r\n    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);\r\n    float: right;\r\n    margin-right: 15px;\r\n    position: relative;\r\n}\r\n#information-text{\r\n    margin: 30px;\r\n}\r\n#social-networks{\r\n    position: absolute;\r\n    top: 0;\r\n    right: 0;\r\n    margin-right: 10px;\r\n    margin-top: 10px;\r\n}\r\n#social-networks svg{\r\n    width: 42px !important;\r\n    height: 42px !important;\r\n}\r\n#social-networks a{\r\n    margin-bottom: 5px !important;\r\n}\r\n", ""]);
 
 // exports
 
 
 /***/ }),
-/* 70 */
+/* 72 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
